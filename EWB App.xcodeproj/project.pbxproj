@@ -13,7 +13,7 @@
 		B28B601B1AF056710078C63F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28B601A1AF056710078C63F /* Images.xcassets */; };
 		B28B601E1AF056710078C63F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B28B601C1AF056710078C63F /* LaunchScreen.xib */; };
 		B28B602A1AF056710078C63F /* EWB_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B60291AF056710078C63F /* EWB_AppTests.swift */; };
-		B28B60341AF056F70078C63F /* ewb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B28B60331AF056F70078C63F /* ewb_logo.png */; };
+		B2B528681AF05CAE0033241D /* ewb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B528671AF05CAE0033241D /* ewb_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		B28B60231AF056710078C63F /* EWB AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EWB AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28B60281AF056710078C63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B28B60291AF056710078C63F /* EWB_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWB_AppTests.swift; sourceTree = "<group>"; };
-		B28B60331AF056F70078C63F /* ewb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ewb_logo.png; path = ../../../ewb_logo.png; sourceTree = "<group>"; };
+		B2B528671AF05CAE0033241D /* ewb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ewb_logo.png; path = ../../ewb_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 				B28B60131AF056700078C63F /* AppDelegate.swift */,
 				B28B60151AF056700078C63F /* ViewController.swift */,
 				B28B60171AF056700078C63F /* Main.storyboard */,
-				B28B60331AF056F70078C63F /* ewb_logo.png */,
+				B2B528671AF05CAE0033241D /* ewb_logo.png */,
 				B28B601A1AF056710078C63F /* Images.xcassets */,
 				B28B601C1AF056710078C63F /* LaunchScreen.xib */,
 				B28B60111AF056700078C63F /* Supporting Files */,
@@ -196,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B28B60191AF056700078C63F /* Main.storyboard in Resources */,
-				B28B60341AF056F70078C63F /* ewb_logo.png in Resources */,
+				B2B528681AF05CAE0033241D /* ewb_logo.png in Resources */,
 				B28B601E1AF056710078C63F /* LaunchScreen.xib in Resources */,
 				B28B601B1AF056710078C63F /* Images.xcassets in Resources */,
 			);
@@ -413,6 +413,7 @@
 				B28B602F1AF056710078C63F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B28B60301AF056710078C63F /* Build configuration list for PBXNativeTarget "EWB AppTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				B28B60321AF056710078C63F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
